@@ -1,0 +1,99 @@
+:root{
+   --primary:red;
+   --seconary:blue;
+   --ternary:green;
+   --pure:white;
+   --light:brown;
+   --dark:black;
+}
+body{
+   margin:0;
+
+
+}
+*{
+   margin:0;
+   padding:0;
+   -webkit--font--smoothing:antialiased;
+   box-sizing: border-box;
+}
+ nav{
+   background:var(--dark);
+   width:100%;
+   display:flex;
+   color:var(--pure);
+   justify-content: space-between;
+   align-items: center;
+   height:15vh;
+
+
+}
+nav .logo{
+  width:25%;
+   font-weight: 100;
+   text-align: center;
+  
+}
+nav .menu{
+   width:40%;
+   display:flex;
+   justify-content: space-around;
+   align-items: center;
+   
+}
+nav .menu a{
+   font-weight: bold;
+   letter-spacing: 2px;
+   margin-right: 2rem;
+   color:var(--pure);
+}
+.main{
+ width:100%;
+ height:85vh;
+   background-image: url('4.png');
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.main .right h1{
+   font-weight: 200;
+   font-size: 35px;
+   letter-spacing: 3px;
+   
+
+}
+.main .right h1{
+   margin:30px 0 20px 0;
+   font-size: 55px;
+   font-weight: 700;
+   text-shadow: 2px 1px 5px black;
+   text-transform: uppercase;
+}
+.main .right p{
+   font-size: 25px;
+   margin-bottom: 25px;
+   word-spacing: 2px;
+
+}
+.main .right a{
+   padding:12px 30px;
+   border-radius: 4px;
+   text-decoration: none;
+   font-size: 13px;
+   font-weight: 700;
+   text-transform: uppercase;
+   outline: none;
+   letter-spacing: 1px;
+}
+.main .btn-one{
+   /*background: #00b894;*/
+   background: #fff;
+   color: #000;
+}
+.main .btn-two{
+   background: #00b894;
+   color:white
+}
+
+

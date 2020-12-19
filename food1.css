@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    background-color: red;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar li a {
+    display: block;
+    padding: 25px;
+    color: blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.hero_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+    background-image: linear-gradient(#f4511e, #f4511e), url("4.png");
+    background-blend-mode: multiply;
+}
+
+.hero_text {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hero_text h1 {
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.hero_text {
+    letter-spacing: 2px;
+    text-transform: uppercaseo;
+}
